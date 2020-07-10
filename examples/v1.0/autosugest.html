@@ -26,7 +26,7 @@
                 if(value == null || value.trim().length == 0){
                     return;
                 }
-                var url = "https://api.map4d.vn/v2/api/autosuggest?key=d05a749e6c445418349e17b6448f210f&location=16.036505,108.218186&text="+value;
+                var url = "https://api.map4d.vn/sdk/autosuggest?key=d05a749e6c445418349e17b6448f210f&location=16.036505,108.218186&text="+value;
                 jQuery.get(url, function(response) {
                     if(response.code == "ok"){
                         var rs = response.result;

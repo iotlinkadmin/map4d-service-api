@@ -395,7 +395,7 @@ stream: dữ liệu trả về dạng stream, nếu không có thì sẽ hiển 
 # 8. GeoCode(Phân giải lat, lng thành địa chỉ)
 ## 8.1. Input(Đầu vào)
 ```
-https://api.map4d.vn/v2/api/geocode?key={key}&lat={lat}&lng={lng}
+https://api.map4d.vn/sdk/geocode?key={key}&lat={lat}&lng={lng}
 key và lat và lng là thuộc tính bắc buộc.
 lat: là vĩ độ theo bản đồ gps, có giá trị từ -90 đến 90
 lng: là kinh độ theo bản đồ gps, có giá trị từ -180 đến 180

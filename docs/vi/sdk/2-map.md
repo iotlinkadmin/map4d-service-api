@@ -118,7 +118,7 @@ mode: là loại 2d hoặc 3d
 ```html
 code: là mã trả về, nếu 'ok' nghĩa là thành công, ngoài ra thì yêu cầu bị lỗi
 message: là nội dung của mã lỗi(nếu có)
-result: là danh sách các xe theo thứ tự từ gần đến xa
+result: là kết quả của dữ liệu trả về
 rasterTile: là nội dung tile dạng base64
 objects: là danh sách các object trong tile đó
 places: là danh sách place trong tile đó
@@ -216,7 +216,7 @@ mode: là loại 2d hoặc 3d
 ```html
 code: là mã trả về, nếu 'ok' nghĩa là thành công, ngoài ra thì yêu cầu bị lỗi
 message: là nội dung của mã lỗi(nếu có)
-result: là danh sách các xe theo thứ tự từ gần đến xa
+result: là kết quả của dữ liệu trả về
 objects: là danh sách các object trong tile đó
 places: là danh sách place trong tile đó
 ```

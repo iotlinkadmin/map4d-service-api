@@ -497,6 +497,7 @@ businessHours: danh sách thời gian mở cửa và đóng của
 [Ví dụ](/examples/v1.0/geocode.html)
 # 9. GeoCode And Reverse Geocoding(Phân giải địa chỉ thành lat lng hoặc ngược lại)
 **GeoCode**: Phân giải địa chỉ(address) ra danh sách các địa điểm khớp với địa chỉ này nhất(thường thì 1 phần tử gần đúng nhất), nếu địa chỉ mơ hồ thì có thể tra nhiều kết quả khớp nhất.
+
 **Reverse Geocoding**: Phân giải location truyền vào thành địa điểm tại đó hoặc gần sát đó. 
 ## 8.1. Input(Đầu vào)
 ```

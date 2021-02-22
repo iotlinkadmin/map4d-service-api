@@ -1,10 +1,11 @@
 # 1. AutoSugest(Tự động đề xuất chuỗi tìm kiếm)
 ## 1.1. Input(Đầu vào)
 ```
-https://api.map4d.vn/sdk/autosuggest?key={key}&text={text}&location={location}
-key và text là thuộc tính bắc buộc.
-text: là chuối muốn gửi ý. VD: "Đà Nẵng"
+https://api.map4d.vn/sdk/autosuggest?key={key}&text={text}&location={location}&isacronyms={isacronyms}
+key và text là thuộc tính bắt buộc.
+text: là chuối muốn gợi ý. VD: "Đà Nẵng"
 location: địa điểm bạn đang tìm kiếm trên bản đồ. VD: 16.036505,108.218186
+isacronym: type boolean- default false - Có tìm từ viết tắt hay không? (Nếu có thì perfomance sẽ kém hơn không tìm theo từ viết tắt)
 ```
 ## 1.2. Output(Đầu ra)
 ```json
@@ -494,3 +495,56 @@ webiste: thông tin trang mạng của địa điểm
 businessHours: danh sách thời gian mở cửa và đóng của
 ```
 [Ví dụ](/examples/v1.0/geocode.html)
+# 9. GeoCode And Reverse Geocoding(Phân giải địa chỉ thành lat lng hoặc ngược lại)
+**GeoCode**: Phân giải địa chỉ(address) ra danh sách các địa điểm khớp với địa chỉ này nhất(thường thì 1 phần tử gần đúng nhất), nếu địa chỉ mơ hồ thì có thể tra nhiều kết quả khớp nhất.
+
+**Reverse Geocoding**: Phân giải location truyền vào thành địa điểm tại đó hoặc gần sát đó. Nếu có địa điểm trong 50 mét sẽ trả về, không thì sẽ trả về đường trong phạm vi 50 mét, nếu không có nữa thì sẽ trả về địa giới hành chính chứa vị trí này), nếu lỗi thì result là null
+## 8.1. Input(Đầu vào)
+```
+https://api.map4d.vn/sdk/v2/geocode?key={key}&location={location}&
+location: địa điểm bạn đang tìm kiếm trên bản đồ. VD: 16.036505,108.218186
+address: địa chỉ cần phân giải ra lat lng. Ví dụ: 31 Lê Văn Duyệt, Phường Nại Hiên Đông, Quận Sơn Trà, Thành Phố Đà Nẵng
+viewbox: (optional) Viewbox có thể chứa kết quả trả về. ví dụ: Ex: 16.056453967981348,108.19387435913086,16.093031550262133,108.25927734375
+```
+**Bắt buộc phải có *location* hoặc *address*, nếu có cả 2 thì ưu tiên address.**
+## 8.2. Output(Đầu ra)
+```json
+{
+  "code": "string",
+  "message": "string",
+  "result": [
+     {
+      "id": "string",
+      "objectId": "string",
+      "name": "string",
+      "address": "string",
+      "location": {
+        "lng": 0,
+        "lat": 0
+      },
+      "types": [
+        "string"
+      ],
+      "tags": [
+        "string"
+      ],
+      "geometry":{
+        "type": "string"
+      }
+    }
+    ]
+}
+```
+```html
+code: là mã trả về, nếu 'ok' nghĩa là thành công, ngoài ra thì yêu cầu bị lỗi
+message: là nội dung của mã lỗi(nếu có)
+result: là danh place được tìm thấy gần nhất(đối với **Reverse Geocoding** nếu có địa điểm trong 50 mét sẽ trả về, không thì sẽ trả về đường trong phạm vi 50 mét, nếu không có nữa thì sẽ trả về địa giới hành chính chứa vị trí này), nếu lỗi thì result là null
+id: là khóa của địa điểm
+location: vị trí đặt địa điểm(lat là vĩ độ theo bản đồ GCS, lng là kinh độ theo bản đồ GCS)
+address: địa chỉ của địa điểm. VD: 31 Lê Văn Duyệt, Phường Nai Hiên Đông, Quận Sơn Trà, Thành phố Đà Nẵng
+name: tên của địa điểm
+objectId: là địa điểm đó nó thuộc đối tượng nào(giống như địa điểm nó thuộc tòa nhà nào)
+types: danh sách các kiểu của place, vd: cafe, restaurant..
+tags: danh sách các nhãn của người dùng thêm vào để thuận tiện cho việc tìm kiếm
+geometry: cấu trúc của địa điểm(có thể là điểm, đường, polygon...)
+```

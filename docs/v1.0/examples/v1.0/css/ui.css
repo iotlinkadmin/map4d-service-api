@@ -49,3 +49,16 @@ body {
 .swagger-ui .opblock-tag-section.is-open .opblock-tag{
 	cursor: auto;
 }
+.input{
+	width: 100%;
+}
+.bodyrange{
+	width: 70%;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+.string { color: mediumaquamarine; }
+.number { color: coral; }
+.boolean { color: coral; }
+.null { color: chocolate; }
+.key { color: peru; }

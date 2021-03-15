@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6ad8593-ee84-4979-ab0e-d255ea74ac59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docs/v1.0/examples/v1.0/geocode_v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/v1.0/examples/v1.0/geocode_v2.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oowj7UYLvzXyXcp9yEci9Epo7Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/v1.0" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PN\IOTLINK\map4d-api-service\docs\v1.0" />
+      <recent name="D:\PN\IOTLINK\map4d-api-service\docs\v1.0\examples" />
+      <recent name="D:\PN\IOTLINK\map4d-api-service\docs\v2.0" />
+      <recent name="D:\IOTLINK\IOTLink\map4d-service-api\docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PN\IOTLINK\map4d-api-service\docs\v1.0\examples\v1.0" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6ad8593-ee84-4979-ab0e-d255ea74ac59" name="Default Changelist" comment="" />
+      <created>1613966384038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613966384038</updated>
+      <workItem from="1613966386615" duration="5036000" />
+      <workItem from="1614042910509" duration="3787000" />
+      <workItem from="1614062093319" duration="4127000" />
+      <workItem from="1614130619608" duration="4454000" />
+      <workItem from="1614149402807" duration="12044000" />
+      <workItem from="1614170356788" duration="679000" />
+      <workItem from="1614216025531" duration="6374000" />
+      <workItem from="1614235093958" duration="12706000" />
+      <workItem from="1614301867257" duration="3445000" />
+      <workItem from="1614321095351" duration="13699000" />
+      <workItem from="1614335701766" duration="52000" />
+      <workItem from="1614336970110" duration="1918000" />
+      <workItem from="1614568200108" duration="20129000" />
+      <workItem from="1614647334682" duration="9218000" />
+      <workItem from="1614657442088" duration="17192000" />
+      <workItem from="1614733687066" duration="7281000" />
+      <workItem from="1614819837356" duration="14954000" />
+      <workItem from="1614907859441" duration="11529000" />
+      <workItem from="1615800186047" duration="952000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

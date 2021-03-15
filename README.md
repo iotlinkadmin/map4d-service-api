@@ -10,11 +10,11 @@ API SDK cung cấp nền tảng cho Web, ISO, Androind
 
 
 ## Danh sách API
-[1. Route:](docs/vi/sdk/0-route.md) thông tin về đường đi, phương tiện trên đường
+[1. Route:](docs/v1.0/sdk/0-route.md) thông tin về đường đi, phương tiện trên đường
 
-[2. Place:](docs/vi/sdk/1-place.md) thông tin địa điểm đối tượng trên bản đồ
+[2. Place:](docs/v1.0/sdk/1-place.md) thông tin địa điểm đối tượng trên bản đồ
 
-[3. Map:](docs/vi/sdk/2-map.md) thông tin về nền bản đồ và nội dung tập tin javascript load
+[3. Map:](docs/v1.0/sdk/2-map.md) thông tin về nền bản đồ và nội dung tập tin javascript load
 
 ## Tài liệu thông tin API
 [API:](https://api.map4d.vn/sdk/docs/index.html)

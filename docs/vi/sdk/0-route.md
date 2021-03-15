@@ -8,8 +8,7 @@ destination: là vị trí lat,lng của địa điểm kết thúc. vd:16.02017
 points: là danh sách các lat,lng mà muốn đi qua. vd:16.039173,108.210912;16.044597,108.217263
 mode: là phương tiện đi qua, hiện tại hỗ trợ 3 loại phương tiện: car(xe hơi), bike(xe đạp, xe máy), foot(đi bộ)
 language: là ngôn ngữ dùng chỉ đường, hiện tại hỗ trợ Tiếng Viêt(vi) hoặc Tiếng Anh(en), mặt định sẽ là Tiếng Việt
-weighting: là thuộc tính tìm theo đường đi ngắn nhất hay đường đi nhanh nhất hay đường đi cần bằng giữa ngắn nhất và nhanh nhất mặt định là nhanh nhất. Nếu weighting=0 là tìm đường đi nhanh nhất, nếu weighting=1 là tìm đường đi ngắn nhất, nếu weighting=2 là cân bằng giữa ngắn nhất và nhanh nhất
- 
+weighting: là thuộc tính tìm theo đường đi ngắn nhất hay đường đi nhanh nhất hay đường đi cần bằng giữa ngắn nhất và nhanh nhất mặc định là ngắn nhất. Nếu weighting=0 là tìm đường đi ngắn nhất, nếu weighting=1 là tìm đường đi nhanh nhất, nếu weighting=2 là cân bằng giữa ngắn nhất và nhanh nhất.
 ```
 ## 1.2. Output(Đầu ra)
 ```json

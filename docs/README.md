@@ -13,7 +13,7 @@ npm i docsify-cli -g
 Goto docs folder,
 
 ```bash
-docsify serve v1.0
+docsify serve v2.0
 ```
 
 Truy cập: http://localhost:3000
